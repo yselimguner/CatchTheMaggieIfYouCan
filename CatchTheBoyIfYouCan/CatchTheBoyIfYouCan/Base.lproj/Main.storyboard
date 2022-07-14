@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchTheBoyIfYouCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlS-cD-HO4">
+                                <rect key="frame" x="75" y="127" width="264" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="kpR-Xg-qko"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time : 30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDd-CM-5pR">
+                                <rect key="frame" x="20" y="75" width="374" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Awu-y4-iuw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="1D0-7U-svZ">
+                                <rect key="frame" x="22" y="212" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3qb-hd-KZ3"/>
+                                    <constraint firstAttribute="width" constant="111" id="Hfg-DQ-3x7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="1jy-iN-tah">
+                                <rect key="frame" x="151.5" y="210" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="BGV-dl-o1o"/>
+                                    <constraint firstAttribute="width" constant="111" id="cO2-3c-kd0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="RQe-gw-cbG">
+                                <rect key="frame" x="283" y="210" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="Xe5-bl-aM6"/>
+                                    <constraint firstAttribute="height" constant="128" id="rrH-h8-1Mf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="OId-8X-K0u">
+                                <rect key="frame" x="20" y="385" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="hWm-n2-zka"/>
+                                    <constraint firstAttribute="height" constant="128" id="pZh-yN-dP8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="THC-bm-wVK">
+                                <rect key="frame" x="150" y="383" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="4Ji-Rx-zDn"/>
+                                    <constraint firstAttribute="height" constant="128" id="7x9-E1-wu0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="zTh-ZE-5zC">
+                                <rect key="frame" x="281" y="383" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="dwt-4Y-hDu"/>
+                                    <constraint firstAttribute="width" constant="111" id="hvP-Et-57G"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="ClK-bF-o1h">
+                                <rect key="frame" x="22" y="550" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="9LH-e0-LA4"/>
+                                    <constraint firstAttribute="height" constant="128" id="qnN-9M-gbP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="1w3-wJ-g5E">
+                                <rect key="frame" x="151.5" y="548" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="X8P-09-Vlh"/>
+                                    <constraint firstAttribute="height" constant="128" id="cGe-cS-EPK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maggie simpson" translatesAutoresizingMaskIntoConstraints="NO" id="xxG-Fh-3RJ">
+                                <rect key="frame" x="283" y="548" width="111" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="A7j-sD-iqZ"/>
+                                    <constraint firstAttribute="width" constant="111" id="z3V-ly-svN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highscore : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLn-Py-hAC">
+                                <rect key="frame" x="22" y="779" width="372" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="jO0-f4-kPJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hDd-CM-5pR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0hQ-JX-qNw"/>
+                            <constraint firstItem="RQe-gw-cbG" firstAttribute="leading" secondItem="xxG-Fh-3RJ" secondAttribute="leading" id="15x-wa-nTf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hLn-Py-hAC" secondAttribute="bottom" constant="27" id="3eV-Iu-Fu7"/>
+                            <constraint firstItem="hDd-CM-5pR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="55t-Pn-WNk"/>
+                            <constraint firstItem="hDd-CM-5pR" firstAttribute="centerX" secondItem="ZlS-cD-HO4" secondAttribute="centerX" id="5rS-aj-UUG"/>
+                            <constraint firstItem="1D0-7U-svZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="9P2-wj-hcG"/>
+                            <constraint firstItem="1jy-iN-tah" firstAttribute="leading" secondItem="1w3-wJ-g5E" secondAttribute="leading" id="COI-HI-ZLn"/>
+                            <constraint firstItem="ClK-bF-o1h" firstAttribute="top" secondItem="OId-8X-K0u" secondAttribute="bottom" constant="37" id="Hiq-sx-8yI"/>
+                            <constraint firstItem="1w3-wJ-g5E" firstAttribute="top" secondItem="xxG-Fh-3RJ" secondAttribute="top" id="KRN-1W-aSG"/>
+                            <constraint firstItem="ZlS-cD-HO4" firstAttribute="top" secondItem="hDd-CM-5pR" secondAttribute="bottom" constant="8" id="MEX-as-k7V"/>
+                            <constraint firstItem="1jy-iN-tah" firstAttribute="top" secondItem="ZlS-cD-HO4" secondAttribute="bottom" constant="46" id="Py0-AV-QQ8"/>
+                            <constraint firstItem="THC-bm-wVK" firstAttribute="top" secondItem="zTh-ZE-5zC" secondAttribute="top" id="Qxb-XI-TIE"/>
+                            <constraint firstItem="1w3-wJ-g5E" firstAttribute="top" secondItem="THC-bm-wVK" secondAttribute="bottom" constant="37" id="UUa-iy-FHE"/>
+                            <constraint firstItem="1w3-wJ-g5E" firstAttribute="centerX" secondItem="hLn-Py-hAC" secondAttribute="centerX" constant="-1" id="W9A-ee-Fj9"/>
+                            <constraint firstItem="1D0-7U-svZ" firstAttribute="top" secondItem="ZlS-cD-HO4" secondAttribute="bottom" constant="48" id="Xll-4D-nJz"/>
+                            <constraint firstItem="THC-bm-wVK" firstAttribute="leading" secondItem="OId-8X-K0u" secondAttribute="trailing" constant="19" id="ZbA-KH-cJ2"/>
+                            <constraint firstItem="ZlS-cD-HO4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="ZjW-nj-ACr"/>
+                            <constraint firstItem="OId-8X-K0u" firstAttribute="top" secondItem="1D0-7U-svZ" secondAttribute="bottom" constant="45" id="aoa-EN-H9e"/>
+                            <constraint firstItem="THC-bm-wVK" firstAttribute="top" secondItem="1jy-iN-tah" secondAttribute="bottom" constant="45" id="dzN-9o-SJC"/>
+                            <constraint firstItem="1jy-iN-tah" firstAttribute="top" secondItem="RQe-gw-cbG" secondAttribute="top" id="fJ2-sq-r3t"/>
+                            <constraint firstItem="1jy-iN-tah" firstAttribute="centerX" secondItem="ZlS-cD-HO4" secondAttribute="centerX" id="gYc-Qw-A2j"/>
+                            <constraint firstItem="zTh-ZE-5zC" firstAttribute="leading" secondItem="THC-bm-wVK" secondAttribute="trailing" constant="20" id="jDK-xp-KVh"/>
+                            <constraint firstItem="OId-8X-K0u" firstAttribute="leading" secondItem="hDd-CM-5pR" secondAttribute="leading" id="m6K-Rd-xQk"/>
+                            <constraint firstItem="hDd-CM-5pR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="ofj-v5-tTD"/>
+                            <constraint firstItem="ClK-bF-o1h" firstAttribute="leading" secondItem="1D0-7U-svZ" secondAttribute="leading" id="v0v-Lm-xoJ"/>
+                            <constraint firstItem="RQe-gw-cbG" firstAttribute="trailing" secondItem="hDd-CM-5pR" secondAttribute="trailing" id="vJo-ej-ihp"/>
+                            <constraint firstItem="hDd-CM-5pR" firstAttribute="leading" secondItem="hLn-Py-hAC" secondAttribute="leading" constant="-2" id="wCg-nn-m9N"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="hLn-Py-hAC" id="Wbe-wb-JhB"/>
+                        <outlet property="maggie1" destination="1D0-7U-svZ" id="4MD-y5-HN2"/>
+                        <outlet property="maggie2" destination="1jy-iN-tah" id="jDE-Gm-yPY"/>
+                        <outlet property="maggie3" destination="RQe-gw-cbG" id="Rlg-GD-uof"/>
+                        <outlet property="maggie4" destination="OId-8X-K0u" id="1xt-qZ-4OY"/>
+                        <outlet property="maggie5" destination="THC-bm-wVK" id="AVa-R9-lzn"/>
+                        <outlet property="maggie6" destination="zTh-ZE-5zC" id="E5B-iS-e3t"/>
+                        <outlet property="maggie7" destination="ClK-bF-o1h" id="20V-X7-zJS"/>
+                        <outlet property="maggie8" destination="1w3-wJ-g5E" id="z1n-2W-EnC"/>
+                        <outlet property="maggie9" destination="xxG-Fh-3RJ" id="3Xw-pg-YIG"/>
+                        <outlet property="scoreLabel" destination="ZlS-cD-HO4" id="OEq-uh-h86"/>
+                        <outlet property="timeLabel" destination="hDd-CM-5pR" id="rGO-If-BiM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="maggie simpson" width="250" height="319"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
